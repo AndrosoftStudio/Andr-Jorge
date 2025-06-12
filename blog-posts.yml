@@ -16,7 +16,7 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           # URL do feed RSS do canal DEVANDRE no YouTube
-          feed_list: "https://www.youtube.com/watch?...8"
+          feed_list: "https://www.youtube.com/@devandre2970"
           
           # Outras configurações
           max_post_count: 5 
