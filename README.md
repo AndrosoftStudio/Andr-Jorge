@@ -10,7 +10,7 @@
   <p align="center">
     <strong>Acompanhe nosso trabalho e junte-se à nossa comunidade:</strong>
     <br>
-    <a href="https://www.youtube.com/c/DEVANDRE">
+    <a href="https://www.youtube.com/@devandre2970">
       <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
     </a>
     <a href="https://discord.gg/6St7456aj8">
