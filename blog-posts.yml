@@ -1,4 +1,4 @@
-name: Update README with latest blog posts
+name: Update README with latest YouTube videos
 on:
   schedule:
     # Roda a cada 4 horas
@@ -12,16 +12,14 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v3
 
-      - name: Update README with blog posts
+      - name: Update README with YouTube videos
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          # URL do feed RSS do seu blog ou YouTube.
-          # Para YouTube, use: https://www.youtube.com/feeds/videos.xml?channel_id=SEU_CHANNEL_ID
-          # Para Medium, use: https://medium.com/feed/@seu-usuario
-          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=SEU_CHANNEL_ID"
+          # URL do feed RSS do canal DEVANDRE no YouTube
+          feed_list: "https://www.youtube.com/watch?...8"
           
           # Outras configurações
-          max_post_count: 5 # Número de posts a serem listados
+          max_post_count: 5 
           readme_path: './README.md'
           comment_tag_name: "BLOG-POST-LIST"
           date_format: "dd/mm/yyyy"
